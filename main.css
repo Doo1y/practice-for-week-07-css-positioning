@@ -17,55 +17,37 @@ html, body {
 
 #yellow-box {
     background-color: #ffff00;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
+    position: static;
 }
 
 #pink-box {
     background-color: #ff69b4;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
 }
 
 #blue-box {
     background-color: #00eeee;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
+    position: fixed;
+    left: 108px;
+    top: 190px;
+    z-index: 2;
 }
 
 #red-box {
     background-color: #ff0000;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
+    position: relative;
+    left: 45px;
+    top: 151px;
+    z-index: 3;
 }
 
 #orange-box {
     background-color: #ffa500;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
+    position: absolute;
+    top: -35px;
+    left: 100px;
+
 }
